@@ -1,0 +1,16 @@
+
+.Header {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: 1fr;
+  color: white;
+  background-color: black;
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 24px;
+
+  .new-ride-link {
+    justify-self: end;
+  }
+}

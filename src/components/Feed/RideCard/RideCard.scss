@@ -1,0 +1,23 @@
+
+.RideCard {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: solid;
+  margin-bottom: 5px;
+
+  .right, .left {
+    display: flex;
+  }
+
+  .right {
+    flex-direction: column;
+  }
+
+  .ride-loactions {
+    font-weight: 900;
+    display: flex;
+  }
+}

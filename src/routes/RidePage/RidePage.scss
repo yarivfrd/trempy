@@ -1,0 +1,28 @@
+
+.RidePage {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+
+  .top {
+    .ride-locations {
+      display: flex;
+      justify-items: center;
+      font-size: 40px;
+    }
+
+    .date-and-time {
+      margin-bottom: 30px;
+    }
+  }
+
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+}

@@ -1,0 +1,54 @@
+{
+  "rides": [
+    {
+      "id": 0,
+      "origin": "חריש",
+      "destination": "תל אביב",
+      "date": "Sat Jul 23 2022 18:49:19 GMT+0300 (Israel Daylight Time)",
+      "details": "מגיע לאיזור רמת החייל",
+      "fee": 15,
+      "contact_info": {
+        "name": "יריב",
+        "tel": "0000000000",
+        "facebook_name": "yariv.fruend"
+      }
+    },
+    {
+      "id": 1,
+      "origin": "פרדס-חנה",
+      "destination": "חריש",
+      "date": "Sun Jul 24 2022 19:30:00 GMT+0300 (Israel Daylight Time)",
+      "details": null,
+      "fee": 0,
+      "contact_info": {
+        "name": "נגה פרוינד",
+        "tel": "0000000000",
+        "facebook_name": "noga.zana"
+      }
+    },
+    {
+      "id": 2,
+      "origin": "בנימינה",
+      "destination": "חריש",
+      "date": "Sun Jul 25 2022 19:30:00 GMT+0300 (Israel Daylight Time)",
+      "details": "מגיע לשכונת בצוותא",
+      "fee": 5,
+      "contact_info": {
+        "name": "ישראל ישראלי",
+        "tel": "0000000000"
+      }
+    },
+    {
+      "id": 3,
+      "origin": "אילת",
+      "destination": "חריש",
+      "date": "Mon Aug 2 2022 07:30:00 GMT+0300 (Israel Daylight Time)",
+      "details": "טקסט ארוך מאוד של חפירה טקסט ארוך מאוד של חפירה טקסט ארוך מאוד של חפירה טקסט ארוך מאוד של חפירה טקסט ארוך מאוד של חפירה טקסט ארוך מאוד של חפירה טקסט ארוך מאוד של חפירה",
+      "fee": 50,
+      "contact_info": {
+        "name": "יעקב חפרנסקי ביטון",
+        "tel": "000-0000000"
+      }
+    }
+  ]
+}
