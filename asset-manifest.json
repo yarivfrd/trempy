@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/trempy/static/css/main.55210daf.css",
+    "main.js": "/trempy/static/js/main.b7e6111e.js",
+    "static/media/harish-sans-v2-medium.woff2": "/trempy/static/media/harish-sans-v2-medium.021aa47b282e574d3d4c.woff2",
+    "static/media/harish-sans-v2-extra-bold.woff2": "/trempy/static/media/harish-sans-v2-extra-bold.582a0ca1ae2973de2f25.woff2",
+    "static/media/harish-sans-v2-regular.woff2": "/trempy/static/media/harish-sans-v2-regular.ce0074266405c592e034.woff2",
+    "index.html": "/trempy/index.html",
+    "main.55210daf.css.map": "/trempy/static/css/main.55210daf.css.map",
+    "main.b7e6111e.js.map": "/trempy/static/js/main.b7e6111e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55210daf.css",
+    "static/js/main.b7e6111e.js"
+  ]
+}
