@@ -6,12 +6,11 @@ import Home from './routes/Home/Home';
 import RidePage from './routes/RidePage/RidePage';
 import RideContactPage from './routes/RideContactPage/RideContactPage';
 import NewRidePage from './routes/NewRidePage/NewRidePage';
-import mockData from './db.json';
 
 function App() {
 
-  // const API_URL = 'http://localhost:3500/rides';
-  const [data, setData] = useState(mockData.rides);
+  const API_URL = 'https://trempy.herokuapp.com/data';
+  const [data, setData] = useState({});
 
   // new ride form state
   const [generalDestination, setGeneralDestination] = useState(null);
@@ -22,15 +21,15 @@ function App() {
   const [tel, setTel] = useState(null);
   const [details, setDetails] = useState(null);
 
-  // useEffect(() => {
-  //   fetchData();
-  // }, []);
+  useEffect(() => {
+    fetchData();
+  }, []);
 
-  // function fetchData() {
-  //   fetch(API_URL)
-  //     .then(res => res.json())
-  //     .then(resData => setData(resData));
-  // }
+  function fetchData() {
+    fetch(API_URL)
+      .then(res => res.json())
+      .then(resData => setData(resData.rides));
+  }
 
   function handleSubmit(e) {
     e.preventDefault();
