@@ -31,7 +31,7 @@ function RidePage({ data }) {
 
           <div className="top">
             <h2 className='ride-locations'>
-              {selectedRide.destination}<FiChevronsLeft />{selectedRide.origin}
+              {selectedRide.origin}<FiChevronsLeft />{selectedRide.destination}
             </h2>
             <div className='date-and-time'>{getDate()} {getTime()}</div>
             {selectedRide.details ? <div className='details'>{selectedRide.details}</div> : null}
@@ -43,6 +43,7 @@ function RidePage({ data }) {
             <a
               className="facebook-profile btn"
               target="_blank"
+              rel="noreferrer"
               href={`https://facebook.com/${getFacebookNameParam()}`}
             >
                 פרופיל פייסבוק

@@ -21,7 +21,7 @@ function RideCard({
   return (
     <Link className="RideCard" to={`ride/${id}`}>
       <div className="right">
-        <div className='ride-loactions'>{destination}<FiChevronsLeft />{origin}</div>
+        <div className='ride-loactions'>{origin}<FiChevronsLeft />{destination}</div>
         <div className='date-and-time'>{getDateAndTime()}</div>
       </div>
       <div className="left">
